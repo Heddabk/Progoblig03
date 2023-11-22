@@ -1,0 +1,27 @@
+bakgrunn = empty-color-scene(450, 450, "light-salmon")
+
+
+sol = circle(100, "solid","yellow") #sol
+sky1 = circle(25, "solid","white") #sky
+sky2 = circle(25, "solid","white") #sky 
+sky3 = circle(25, "solid","white") #sky
+sky4 = circle(25, "solid","white") #sky
+sand1 = rectangle(500, 90, "solid", "peru") #sand 
+sand2 = rectangle(500, 70, "solid", "burlywood") #sand
+vann1 = rectangle(500, 60, "solid", "cornflower-blue") #vann
+vann2 = rectangle(500, 40, "solid", "steel-blue") #vann
+vann3 = rectangle(500, 20, "solid", "royal-blue") #vann
+
+
+
+put-image(sky1, 140, 290,
+  put-image(sky2, 125, 310, 
+    put-image(sky3, 110, 290,
+      put-image(sky4, 90, 310,
+          put-image(sand1, 200, 15,
+          put-image(sand2, 200, 65,
+            put-image(vann1, 200, 100,
+              put-image(vann2, 200, 130,
+                put-image(vann3, 200, 140,
+                  put-image(sol, 225, 175,
+                    bakgrunn))))))))))
